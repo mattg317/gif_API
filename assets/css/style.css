@@ -1,0 +1,25 @@
+body{
+	background: #30A170;
+}
+
+#gif-form{
+	text-align: right;
+}
+
+button, div, form, input {
+			margin: 10px;
+
+		}
+
+.gif img{
+	margin: 30px;
+}
+
+button{
+	background: blue;
+	color:pink;
+}
+
+.info{
+	float: left;
+}
