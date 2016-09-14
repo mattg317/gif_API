@@ -9,7 +9,7 @@ var topics = ['football', 'soccer', 'rugby', 'hockey', 'basketball', 'baseball',
 function displayGif(){
 	$('#gif').empty();
 	var gif = $(this).attr('data-name');
-	var queryURL= 'http://api.giphy.com/v1/gifs/search?q='+gif+'&limit=10&api_key=dc6zaTOxFJmzC';  
+	var queryURL= 'https://crossorigin.me/http://api.giphy.com/v1/gifs/search?q='+gif+'&limit=10&api_key=dc6zaTOxFJmzC';  
 
 	$.ajax({url: queryURL, method: 'GET'}).done(function(response){
 
